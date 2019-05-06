@@ -1,16 +1,8 @@
+import makeUser from '../src/home/make-user.js';
 const test = QUnit.test;
 
 QUnit.module('make user');
 
-function makeUser() {
-    const user = {
-        name: 'Hagrid',
-        house: 'Ravenclaw',
-        spells: 0,
-        injury: 50
-    };
-    return user;
-}
 
 test('create user object from form data', (assert) => {
     // arrange
