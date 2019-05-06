@@ -5,9 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./src/styles.css">
-    <title>Document</title>
+    <title>Homepage for HP Adventure</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Your Harry Potter Adventure Begins Today!</h1>
+    </header>
+    <main>
+        <h2>Create Your Player to Begin Your Quest</h2>
+        <form id="form">
+            <label for="name">Player Name:</label>
+            <input id="name" name="name" type="text">
+            <fieldset>
+                <legend>Select Your Hogwarts House:</legend>
+                <label for="gryffindor">
+                    <input type="radio" name="houses" id="gryffindor" required value="gryffindor">
+                    <img id="g" src="./assets/houses/gryffindor.jpeg">
+                </label>
+                <label for="ravenclaw">
+                    <input type="radio" name="houses" id="ravenclaw" required value="ravenclaw">
+                    <img id="r" src="./assets/houses/ravenclaw.jpeg">
+                </label>
+                <label for="hufflepuff">
+                    <input type="radio" name="houses" id="hufflepuff" required value="hufflepuff">
+                    <img id="h" src="./assets/houses/hufflepuff.jpeg">
+                </label>
+                <label for="slytherin">
+                    <input type="radio" name="houses" id="slytherin" required value="slytherin">
+                    <img id="s" src="./assets/houses/slytherin.jpeg">
+                </label>
+            </fieldset>
+            <div>
+                <button id="submit">Begin the Magic!</button>
+            </div>
+        </form>
+    </main>
 </body>
 </html>
