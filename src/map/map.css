@@ -1,35 +1,24 @@
-header {
-    display: inline-flex;
-    padding-bottom: 4px;
-}
-
 h1{
-    padding-right: 52px;
+    display: inline;
 }
 
 img {
-   height: 50px;
+   height: 75px;
    width: auto; 
    padding-top: 10px;
-   padding-left: 1px;
 }
 
 
 #user-info {
     background-color: rgb(226, 211, 36);
-    border: solid #4F605B 1px;
-    font-size: .8em;
+    border: solid #4F605B 2px;
+    font-size: .7em;
     color: rgb(57, 57, 57);
+    text-align: center;
+    padding-left: 1px;
+    padding-right: 1px;
+    float: right;
+    margin-top: -4px;
+    margin-right: -3px;
 }
 
-#name {
-    padding-right: 4px;
-}
-
-#injury {
-    padding-right: 4px;
-}
-
-#spells {
-    padding-right: 8px;
-}
