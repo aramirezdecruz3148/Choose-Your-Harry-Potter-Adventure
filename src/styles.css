@@ -6,6 +6,7 @@ body {
 }
 
 header {
+    width: 750px;
     text-align: center;
     background-color: #83AE96;
     border: solid #4F605B 3px;
