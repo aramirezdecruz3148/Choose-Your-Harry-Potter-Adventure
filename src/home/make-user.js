@@ -1,7 +1,7 @@
-function makeUser() {
+function makeUser(formData) {
     const user = {
-        name: 'Hagrid',
-        house: 'Ravenclaw',
+        name: formData.get('name'),
+        house: formData.get('house'),
         spells: 0,
         injury: 50
     };

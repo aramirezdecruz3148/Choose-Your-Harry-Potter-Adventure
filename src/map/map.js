@@ -1,18 +1,18 @@
 import api from '../services/api.js';
 
 //calling on the DOM elements needed
-const playerName = document.getElementById('name');
+const userName = document.getElementById('name');
 const houseAvatar = document.getElementById('house');
 const injuryPoints = document.getElementById('injury');
 const spellPoints = document.getElementById('spells');
 
-const player = api.getUser();
+const user = api.getUser();
 
-if(!player) {
+if(!user) {
     window.location = '../../';
 }
 
-playerName.textContent = player.name;
-houseAvatar.src = '../../assets/houses/' + player.house + '.jpeg';
-injuryPoints.textContent = player.injury;
-spellPoints.textContent = player.spells;
+userName.textContent = user.name;
+houseAvatar.src = '../../assets/houses/' + user.house + '.jpeg';
+injuryPoints.textContent = user.injury;
+spellPoints.textContent = user.spells;
