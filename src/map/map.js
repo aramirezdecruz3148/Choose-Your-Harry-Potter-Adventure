@@ -13,6 +13,6 @@ if(!player) {
 }
 
 playerName.textContent = player.name;
-houseAvatar.src = '../../assets/' + player.house + '.jpeg';
+houseAvatar.src = '../../assets/houses/' + player.house + '.jpeg';
 injuryPoints.textContent = player.injury;
 spellPoints.textContent = player.spells;
