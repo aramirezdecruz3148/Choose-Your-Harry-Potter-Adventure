@@ -1,14 +1,28 @@
-img {
-   height: 50px;
-   width: auto; 
+header {
+    display: inline-flex;
+    padding-bottom: 4px;
+
 }
 
+img {
+   height: 55px;
+   width: auto; 
+   padding-top: 10px;
+   padding-left: 1px;
+}
+
+
 #user-info {
-    width: 300px;
-    border: solid  rgb(226, 211, 36) 2px;
     background-color: rgb(226, 211, 36);
-    border: solid #4F605B 2px;
-    padding-top: .5%;
+    border: solid #4F605B 1px;
     font-size: .8em;
-    text-align: center;
+    color: rgb(57, 57, 57);
+}
+
+#name {
+    padding-right: 8px;
+}
+
+#injury {
+    padding-right: 8px;
 }
