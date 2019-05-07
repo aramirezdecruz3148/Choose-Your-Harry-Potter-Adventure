@@ -1,0 +1,14 @@
+img {
+   height: 50px;
+   width: auto; 
+}
+
+#user-info {
+    width: 300px;
+    border: solid  rgb(226, 211, 36) 2px;
+    background-color: rgb(226, 211, 36);
+    border: solid #4F605B 2px;
+    padding-top: .5%;
+    font-size: .8em;
+    text-align: center;
+}
