@@ -2,7 +2,7 @@ const shriekingShack = {
     id: 'shack',
     title: 'Sneak to the Shrieking Shack',
     image: 'shrieking-shack.jpg',
-    audio: 'b',
+    audio: 'shack.mp4',
     description: `
     b
     `,
