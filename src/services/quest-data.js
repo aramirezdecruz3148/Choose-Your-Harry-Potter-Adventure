@@ -1,6 +1,10 @@
 const shriekingShack = {
     id: 'shack',
     title: 'Sneak to the Shrieking Shack',
+    map: {
+        top: '75%',
+        left: '34%'
+    },
     image: 'shrieking-shack.jpg',
     audio: 'shack.mp4',
     description: `
@@ -72,6 +76,10 @@ const shriekingShack = {
 const forbiddenForest = {
     id: 'forest',
     title: 'Explore the Forbidden Forest',
+    map: {
+        top: '52%',
+        left: '70%'
+    },
     image: 'forbidden-forest.jpg',
     audio: 'forest.m4a',
     description: `
@@ -107,6 +115,10 @@ const forbiddenForest = {
 const knockturnAlley = {
     id: 'knockturn',
     title: 'Creep into Knockturn Alley',
+    map: {
+        top: '30%',
+        left: '10%'
+    },
     image: 'knockturn-alley.jpg',
     audio: 'knockturn',
     description: `
