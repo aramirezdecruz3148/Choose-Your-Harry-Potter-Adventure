@@ -94,7 +94,7 @@ const forbiddenForest = {
         injury: 7,
         spells: 7
     }, {
-        id: 'g',
+        id: 'gh',
         description: 'g',
         result: `
         g 
@@ -113,7 +113,7 @@ const knockturnAlley = {
     g
     `,
     choices: [{
-        id: 'g',
+        id: 'gi',
         description: 'g',
         result: `
         g
@@ -121,7 +121,7 @@ const knockturnAlley = {
         injury: 6,
         spells: 6
     }, {
-        id: 'g',
+        id: 'gf',
         description: 'g',
         result: ` 
         g
@@ -129,7 +129,7 @@ const knockturnAlley = {
         injury: 6,
         spells: 6
     }, {
-        id: 'g',
+        id: 'gs',
         description: 'g',
         result: `
         g

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="./quest.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Your Wizarding World Adventure!</h1>
+        <section id="user-info">
+            <img id="house" src="../../assets/houses/slytherin.jpeg" alt="one of the four hogwarts house crests">
+            <div id="name"></div>
+            Injury:<div id="injury"></div>
+            Spells:<div id="spells"></div>
+        </section>
+    </header>
+    <main>
+        <section id="quest-intro">
+            <h2 id="quest-title">Sneak to the Shrieking Shack</h2>
+            <img id="quest-img" src="../../assets/quest-photos/shrieking-shack.jpg" alt="image describing each quest">
+            <audio id="audio" autoplay></audio>
+        </section>
+        <section>
+            <p id="description">It is late at night and your best friend dares you to sneak out of the castle and go 
+                    to the Shrieking Shack by yourself. Not wanting to let them see how scared you are, you 
+                    agree and try to shrug it off as you leave your house dorm. The walk to the Shrieking 
+                    Shack is long and eerily silent this time of night. It has been so silent that your ears
+                    perk up the second you arrive and open the door, as you are greated with several load bangs. 
+                    Trying to be braver than you feel, you get your wand out, and proceed inside. You hear
+                    an evil cackle coming from above your head and look up just in time to see Peeves 
+                    materialize with a bucket of water that he unceremoniously dumps on your head. You are now
+                    wet, cold, and angry! You look back up at Peeves and the wide grin spreaking across his
+                    face REALLY adds insult to injury. Your anger boils over and you have an overwhleming
+                    desire for revenge. What do you do?</p>
+        </section>
+        <form id="quest-form">
+            <p id="choices">
+                <label>
+                    <input type="radio" name="quest-option" required="true" value="baron">
+                    Impersonate the Bloody Baron...
+                </label>
+                <label>
+                    <input type="radio" name="quest-option" required="true" value="spell">
+                    Jinx Peeves!
+                </label>
+                <label>
+                    <input type="radio" name="quest-option" required="true" value="leave">
+                    Be the bigger wizard, do not retaliate, and walk back to the castle.
+                </label>
+            </p>
+            <p id="submit-button">
+                 <button id="submit-choice">Make Your Choice!</button>
+            </p>
+        </form>
+        <section id="result" class="hidden"></section>
+        <p id="map-button">        
+            <button id="map" class="hidden">Go to Another Adventure</button>
+        </p>
+    </main>
+    
+</body>
+</html>
