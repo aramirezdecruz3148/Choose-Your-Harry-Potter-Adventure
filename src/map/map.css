@@ -1,3 +1,18 @@
+body {
+    background-image: url('../../assets/marauders-map.jpg');
+}
+
+.quest {
+    position: absolute;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.quest.completed {
+    color: white;
+    font-size: .9em;
+}
+
 h1{
     display: inline;
 }
