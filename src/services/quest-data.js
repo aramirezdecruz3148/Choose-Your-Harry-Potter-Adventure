@@ -48,9 +48,9 @@ const shriekingShack = {
         you are greeted by Peeves and Filch at the entrance. Both are looking rather smug. Filch says, "Peeves
         tells me you were not only out of bed, but out of bounds after curfew...my, my, we are in trouble
         aren't we?" You feel your stomach drop and realize you are in DEEP trouble that will cause you to lose
-        thirty injury points.
+        20 injury points.
         `,
-        injury: -30,
+        injury: -20,
         spells: 20
     }, {
         id: 'leave',
