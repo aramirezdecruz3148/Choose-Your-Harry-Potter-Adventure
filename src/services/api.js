@@ -1,3 +1,4 @@
+import questArray from './quest-data.js';
 const api = {
     storage: localStorage,
     signUp(user) {
@@ -10,10 +11,17 @@ const api = {
         const user = JSON.parse(json);
         return user;
     },
-    getQuests(questArray) {
+    getQuests() {
         return questArray;
-    }
-
+    },
+    getQuest(id) {
+        for(let i = 0; i < questArray.length; i++) {
+            const quest = questArray[i];
+            if(quest.id === id) {
+                return quest;
+            }
+        }
+    }	    
 };
 
 export default api;
