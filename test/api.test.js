@@ -19,7 +19,7 @@ test('save user and then retrieve the user, roung-trip that shit!', (assert) => 
 
     };
     //Act 
-    api.signUp(expected);
+    api.saveUser(expected);
     // Call the function you're testing and set the result to a const
     const result = api.getUser();
     //Assert
