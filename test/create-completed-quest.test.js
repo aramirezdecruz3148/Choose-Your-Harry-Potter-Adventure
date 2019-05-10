@@ -12,7 +12,7 @@ test('Create completed quest element', (assert) => {
         }
     };
 
-    const expected = '<span class="quest completed" style="top: 75%; left: 34%;">Sneak to The Shrieking Shack</span>';
+    const expected = '<span class="quest complete" style="top: 75%; left: 34%;">Sneak to The Shrieking Shack</span>';
 
     //Act 
     // Call the function you're testing and set the result to a const

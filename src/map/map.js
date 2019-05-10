@@ -2,6 +2,7 @@ import api from '../services/api.js';
 import loadProfile from '../load-profile.js';
 import createQuestLink from '../map/create-quest-link.js';
 import questArray from '../services/quest-data.js';
+import createCompletedQuestLink from '../map/create-completed-quest.js';
 
 loadProfile();
 
