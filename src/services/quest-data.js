@@ -208,26 +208,71 @@ const knockturnAlley = {
         id: 'confront',
         description: 'Confront Lucius directly.',
         result: `
-        g
+        You are suddenly filled with anger! Why does Lucius get away with manipulating
+        everyone for his or Voldermorts gain? You think about it and realize he is nothing
+        more than a big bully. Your anger takes the place of any fear you may have of Lucius,
+        so when he walks out of the shop door a second later, immediately walk over to him.
+        You boldy stand in his path and say "I know what you are doing, and I am going to make 
+        sure you don't get away with it." He chuckles and looks at you like a spec of dirt
+        he is about to brush off his shoulder, "I don't know who you are, but you are just 
+        a child. I am willing to bet that you don't really my business. But let me just 
+        demonstrate a small piece of the power I wield so you stay out of my way." Before
+        you have a chance to respond, he slips his wand from his robes, points it at you
+        and yells, "crucio!" Your whole body is filled with pain you have never experienced.
+        It feels like hours and days are passing, and the pain makes you wish you could just
+        die. Finally it stops. You are left curled up on the ground unable to move or see for 
+        several minutes. Once you open your eyes you see that Lucius is gone and you are alone
+        on the street. You never want to feel anything like that again. You take 10 injury points
+        and decide to mind your own business and try to forget what you heard.
         `,
         injury: 10,
         spells: 0
     }, {
         id: 'dumbledore',
-        description: 'Take the information to Dumbledore',
+        description: 'Take the information to Dumbledore.',
         result: ` 
-        g
+        You feel compelled to act, I mean, people's lives are at stake! But you know that
+        you can't handle this on your own. You decide the best course of action will be to 
+        tell Dumbledore. You know he is deep into the resistance, and he is always willing
+        to hear a student out. You visit Dumbledore in his office as soon as term starts and rely 
+        what you overheard. He thanks you for the information, and tells you that he has
+        already been watching Lucius movements pretty closely, and knows he is expecting an
+        illegal object from Borgin (the shop owner), in a few days time. You ask Dumbledore
+        what the object is, and what Lucius will do with it. Dumbledore chuckles at you and
+        his eyes twinkle behind his spectacles. "Never you mind. The term has just begun and
+        I am willing to bet that you have classes to study for. I believe you will find me 
+        completely capable of handling Lucius. I admire your original curiosity that compelled
+        you to listen to his conversation that day, but I must warn you that too much curiosity
+        can indeed be dangerous." Then he gives you a wink and you know the meeting is over. You 
+        may not have used any super cool spells to foil Lucius, but you are reassured that 
+        Dumbledore will prevent his plan from coming to fruition. And you do have lots of homework
+        so you decide to wipe Lucius from your mind and fill it with spells instead.
         `,
-        injury: 6,
-        spells: 6
+        injury: 0,
+        spells: 2
     }, {
-        id: 'gs',
-        description: 'g',
+        id: 'spell',
+        description: 'Obliviate Lucius!',
         result: `
-        g
+        You know that a war is coming. Voldermort is again rising to power, and action needs to be
+        taken. You are inspired by the little pieces of resistance you have been hearing of around 
+        the country. You decide that it is time to act! You cannot let Lucius kill innocent people
+        to do Voldermort's bidding. You know it may not be a responsible or legal choice, but you 
+        also know that not sometimes the right choice isn't responsible or legal. You see Lucius
+        walk out of the shop, and you know your moment is upon you. You aren't even sure if it will
+        work, as you have never tried the spell before and it is beyond your years, but you point your
+        wand at his back and say "oblivate!" He stops in his tracks and just stands still. You aren't
+        sure if it worked or not so you wait a moment or two. He still does not move. You cautiously 
+        call his name and he turns with a bewildered look on his face and says, "What did you call me?
+        I am terribly sorry to bother you, but I don't seem to know where I am...or who I am..." You realize
+        that not only did your spell work, but it was stronger than you intended, you made him forget
+        his whole identity. Take 30 spell points for not only performing magic above your level, but beyond. 
+        However, you also take 10 injury points because there are consequences for robbing someone of their
+        entire identity. The whole Malfoy family will be affected, and really if you think about it, Voldermort
+        can very easily get another death eater to complete whatever Lucius's task was. 
         `,
-        injury: 7,
-        spells: 7
+        injury: 10,
+        spells: 30
     }]
 };
 
