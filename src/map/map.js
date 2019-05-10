@@ -6,7 +6,10 @@ import questArray from '../services/quest-data.js';
 loadProfile();
 
 const nav = document.getElementById('quests');
+const audio = document.getElementById('audio');
 const quests = api.getQuests(questArray);
+
+audio.src = '../../assets/hp-theme.m4a';
 
 for(let i = 0; i < quests.length; i++) {
     let quest = quests[i];
