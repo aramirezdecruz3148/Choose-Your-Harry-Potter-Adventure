@@ -15,8 +15,8 @@ test('create user object from form data', (assert) => {
         name: 'Hagrid',
         house: 'Ravenclaw',
         spells: 0,
-        injury: 50
-
+        injury: 50,
+        complete: {}
     };
     // act
     const result = makeUser(formData);

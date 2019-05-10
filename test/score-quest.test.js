@@ -9,7 +9,7 @@ test('creating a function to score each quest', (assert) => {
         name: 'Jill',
         injury: 50,
         spells: 0,
-        completed: {}
+        complete: {}
     };
 
     const choice = {
@@ -25,7 +25,7 @@ test('creating a function to score each quest', (assert) => {
         name: 'Jill',
         injury: 30,
         spells: 5,
-        completed: { 
+        complete: { 
             forest: true 
         }
     };
