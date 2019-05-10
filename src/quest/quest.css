@@ -10,7 +10,6 @@ img {
     height: 75px;
     width: auto; 
     padding-top: 10px;
-    margin-bottom: -2%;
  }
 
 #user-info {
@@ -32,6 +31,13 @@ label {
 
 .hidden {
     display: none;
+}
+
+#result {
+    background-color: #83AE96;
+    color: rgb(68, 68, 68);
+    border: solid #4F605B 2px;
+    margin: 0;
 }
 
 #quest-img {
