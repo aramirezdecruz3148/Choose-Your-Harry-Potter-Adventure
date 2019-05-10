@@ -57,3 +57,19 @@ label {
     font-size: 1.5em;
     margin-top: 15px;
 }
+
+#map {
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px black;
+}
+
+#map:hover {
+    background-color: maroon;
+}
+
+#description {
+    background-color: #83AE96;
+    border: solid #4F605B 2px;
+    margin: 0%;
+    box-shadow: 1px 1px 1px black;
+}

@@ -37,3 +37,9 @@ img {
     margin-right: -3px;
 }
 
+a:hover {
+    color: rgb(226, 211, 36);
+    text-shadow: 2px 2px 2px black;
+}
+
+
