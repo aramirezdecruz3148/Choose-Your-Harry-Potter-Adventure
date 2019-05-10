@@ -20,15 +20,10 @@ questImage.src = '../../assets/quest-photos/' + quest.image;
 questTitle.textContent = quest.title;
 questDescription.textContent = quest.description;
 
-for(let i = 0; i < quest.choices.length; i++) {
-    let choice = createChoice(quest.choices[i]);
-    choiceParent.appendChild(choice);
-}
 
 questForm.addEventListener('submit', event => {
     event.preventDefault;
     const FormData = new FormData(questForm); 
-    const choiceId = FormData.get('quest-option');
     
 
 });
