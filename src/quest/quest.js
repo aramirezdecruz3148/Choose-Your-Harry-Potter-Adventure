@@ -38,7 +38,7 @@ questForm.addEventListener('submit', (event) => {
     const choiceData = findById(quest.choices, choiceId);
 
     const user = api.getUser();
-    scoreFunction(user, choiceData, quest.id);
+    scoreFunction(user, choiceData, quest);
     api.saveUser(user);
 
     questResult.classList.remove('hidden');
