@@ -1,4 +1,5 @@
 import questArray from './quest-data.js';
+import findById from '../find-by-id.js';
 const api = {
     storage: localStorage,
     saveUser(user) {
@@ -15,13 +16,8 @@ const api = {
         return questArray;
     },
     getQuest(id) {
-        for(let i = 0; i < questArray.length; i++) {
-            const quest = questArray[i];
-            if(quest.id === id) {
-                return quest;
-            }
-        }
-    }	    
+        return findById(questArray, id);
+    }    
 };
 
 export default api;
