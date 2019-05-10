@@ -183,19 +183,38 @@ const knockturnAlley = {
     image: 'knockturn-alley.jpg',
     audio: 'knockturn',
     description: `
-    g
+    It is the summer holiday and you are in Diagon Alley buying your school supplies
+    for the following year. After ticking off all the items on your list, your parents offer
+    to take them back home, so you can have an ice cream at Florean Fortescue's and read your
+    new book in the sun. Once you have settled with your ice cream, you see Lucius and Draco Malfoy 
+    walk by, you cover your face with your book and listen to their conversation. "No Draco," Lucius
+    spat, "you cannot cometo Knockturn Alley. Some of my side business needs to be kept
+    quiet, so the Ministry does not hear of it. And you brag to anyone that will listen. So stay
+    here, I will only be a moment." You peak up from your book and see Lucius's cloak disappear 
+    around the corner. Curiosity gets the better of you, and you abadon your ice cream to follow him
+    and see what he is up to. You follow him to Knockturn Alley, where he ducks into Borgin & Burks.
+    You sneak one of the Weasley's extendible ears into a crack in the window and hunker down to listen.
+    "It is very rare Lucius, and very illegal. It will be risky for me to procure, and risky means expensive."
+    You guess this must be the shop owner speaking, Lucius responds, "Cost has never been a factor for
+    me, you know that. But need I remind you, I am doing the Dark Lord's bidding, that should be incentive
+    enough to get it, and quickly. Once I have it, I can set his plan in action, and many will perish."
+    The shop owner stutters a little and responds, "of course, yes, anything to serve the Dark Lord. I
+    will get it for you without delay." You pull out the extendible ear and do some quick thinking. You
+    have never liked the Malfoy's, but now you know they are involved in something that could kill 
+    people. You feel like you have to do something to foil Lucius's plan, you can't do nothing, knowing
+    that people are in danger. What do you do?
     `,
     choices: [{
-        id: 'gi',
-        description: 'g',
+        id: 'confront',
+        description: 'Confront Lucius directly.',
         result: `
         g
         `,
-        injury: 6,
-        spells: 6
+        injury: 10,
+        spells: 0
     }, {
-        id: 'gf',
-        description: 'g',
+        id: 'dumbledore',
+        description: 'Take the information to Dumbledore',
         result: ` 
         g
         `,

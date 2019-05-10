@@ -1,7 +1,7 @@
 function scoreQuest(user, choice, quest) {
     user.injury += choice.injury;
-    user.spell += choice.spell;
-    user.completed[quest.id] = true;
+    user.spells += choice.spells;
+    user.complete[quest] = true;
     return user;
 }
 

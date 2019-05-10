@@ -1,6 +1,6 @@
-function findById(items, id) {
-    for(let i = 0; i < items.length; i++) {
-        let item = items[i];
+function findById(array, id) {
+    for(let i = 0; i < array.length; i++) {
+        let item = array[i];
         if(item.id === id) {
             return item;
         }
