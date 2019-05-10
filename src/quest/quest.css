@@ -1,0 +1,75 @@
+h1{
+    display: inline;
+}
+
+h2 {
+    margin-bottom: -1%;
+}
+
+img {
+    height: 75px;
+    width: auto; 
+    padding-top: 10px;
+ }
+
+#user-info {
+    background-color: rgb(226, 211, 36);
+    border: solid #4F605B 2px;
+    font-size: .7em;
+    color: rgb(57, 57, 57);
+    text-align: center;
+    padding-left: 1px;
+    padding-right: 1px;
+    float: right;
+    margin-top: -4px;
+    margin-right: -3px;
+}
+
+label {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+#result {
+    background-color: #83AE96;
+    color: rgb(68, 68, 68);
+    border: solid #4F605B 2px;
+    margin: 0;
+}
+
+#quest-img {
+    width: 275px;
+    height: auto;
+}
+
+#quest-intro {
+    text-align: center;
+}
+
+#map {
+    background-color: rgb(226, 211, 36);
+    border: solid #4F605B 2px;
+    font-family: 'Cormorant Unicase', serif;
+    color: #83AE96;
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+#map {
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px black;
+}
+
+#map:hover {
+    background-color: maroon;
+}
+
+#description {
+    background-color: #83AE96;
+    border: solid #4F605B 2px;
+    margin: 0%;
+    box-shadow: 1px 1px 1px black;
+}

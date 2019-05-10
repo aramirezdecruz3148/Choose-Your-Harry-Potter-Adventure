@@ -3,7 +3,8 @@ function makeUser(formData) {
         name: formData.get('name'),
         house: formData.get('house'),
         spells: 0,
-        injury: 50
+        injury: 50,
+        complete: {}
     };
     return user;
 }

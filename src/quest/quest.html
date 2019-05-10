@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="./quest.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Your Wizarding World Adventure!</h1>
+        <section id="user-info">
+            <img id="house" src="../../assets/houses/slytherin.jpeg" alt="one of the four hogwarts house crests">
+            <div id="name"></div>
+            Injury:<div id="injury"></div>
+            Spells:<div id="spells"></div>
+        </section>
+    </header>
+    <main>
+        <section id="quest-intro">
+            <h2 id="quest-title"></h2>
+            <img id="quest-img" src="" alt="image describing each quest">
+            <audio id="audio" autoplay loop></audio>
+        </section>
+        <section>
+            <p id="description"></p>
+        </section>
+        <form id="quest-form">
+            <p id="choices"></p>
+            <p id="submit-button">
+                 <button id="submit-choice">Make Your Choice!</button>
+            </p>
+        </form>
+        <section id="result" class="hidden"></section>
+        <p id="map-button">        
+            <button id="map" class="hidden">Go to Another Adventure</button>
+        </p>
+    </main>
+<script type="module" src="../quest/quest.js"></script>
+</body>
+</html>
