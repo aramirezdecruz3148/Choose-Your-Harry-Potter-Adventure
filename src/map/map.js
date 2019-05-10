@@ -16,7 +16,6 @@ const user = api.getUser();
 for(let i = 0; i < quests.length; i++) {
     let quest = quests[i];
     let dom;
-    console.log(user.complete);
     if(user.complete[quest.id]) {
         dom = createCompletedQuest(quest);
     } else {
