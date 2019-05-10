@@ -12,6 +12,7 @@ const questImage = document.getElementById('quest-img');
 const questDescription = document.getElementById('description');
 const questForm = document.getElementById('quest-form');
 const questResult = document.getElementById('result');
+const mapButton = document.getElementById('map');
 
 
 const searchParams = new URLSearchParams(window.location.search);
@@ -39,9 +40,14 @@ questForm.addEventListener('submit', (event) => {
     api.saveUser(user);
 
     questResult.classList.remove('hidden');
+    mapButton.classList.remove('hidden');
     questDescription.classList.add('hidden');
     questForm.classList.add('hidden');
     questResult.textContent = choiceData.result;
     loadProfile();
+});
+
+mapButton.addEventListener('click', () => {
+    window.location = '../map/map.html';
 });
 
