@@ -13,6 +13,7 @@ const questDescription = document.getElementById('description');
 const questForm = document.getElementById('quest-form');
 const questResult = document.getElementById('result');
 const mapButton = document.getElementById('map');
+const audio = document.getElementById('audio');
 
 
 const searchParams = new URLSearchParams(window.location.search);
@@ -23,6 +24,7 @@ let quest = api.getQuest(questId);
 questImage.src = '../../assets/quest-photos/' + quest.image;
 questTitle.textContent = quest.title;
 questDescription.textContent = quest.description;
+audio.src = '../../assets/quest-sounds/' + quest.id + '.m4a';
 
 for(let i = 0; i < quest.choices.length; i++) {
     const choice = createChoice(quest.choices[i]);
