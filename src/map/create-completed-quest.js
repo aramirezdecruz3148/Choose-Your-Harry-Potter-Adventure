@@ -1,4 +1,3 @@
-QUnit.module('createCompletedQuest');
 function createCompletedQuest(quest) {
     const span = document.createElement('span');
     span.classList.add('quest');

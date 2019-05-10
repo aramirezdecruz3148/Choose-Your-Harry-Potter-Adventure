@@ -1,6 +1,8 @@
 import createCompletedQuest from '../src/map/create-completed-quest.js';
 const test = QUnit.test;
 
+QUnit.module('createCompletedQuest');
+
 test('Create completed quest element', (assert) => {
     //Arrange
     const quest = {
