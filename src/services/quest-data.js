@@ -122,10 +122,10 @@ const forbiddenForest = {
         ready, so you quickly point your wand and scream stupify! You see that your spell hit,
         and you turn and keep running. You both make it safely to the castle, where Dumbledore
         agrees to help relocate the centuar to a different herd. Your quick thinking has saved this
-        centuar, and your well aimed spell prevented any further injury, so take 5 spell points.
+        centuar, and your well aimed spell prevented any further injury, so take 10 spell points.
         `,
         injury: 0,
-        spells: 5
+        spells: 10
     }, {
         id: 'run',
         description: 'You cannot handle this, you turn on your heel and make a run for it!',
@@ -139,10 +139,10 @@ const forbiddenForest = {
         of relief and head back to your house dorm. On the bright side, your brush with
         adventure has given you perspective, and your school work doesn't seem that daunting
         anymore. You crack your books and have an increibly productive night of studying that
-        earns you 20 spell points!
+        earns you 5 spell points!
         `,
         injury: 0,
-        spells: 20
+        spells: 5
     }, {
         id: 'fight',
         description: 'You will help, but you will not just stand there, you will fight!',
@@ -154,7 +154,7 @@ const forbiddenForest = {
         you have finished speaking, the sound of hooves running can be heard all around you.
         In a moment you and your new friend are surrounded by a heard of centuars with their
         bows drawn. You draw out your wand, open your mouth, and are suprised words come out, "please do not hurt 
-        him, he should not have to die, and I am prepared to protect him." "Our fight is not with
+        him, he should not have to die, and I am prepared to protect him." A centuar responds, "our fight is not with
         you, we do not want to harm you, but if you put yourself in our way, we cannot help
         if you are shot." You suddenly feel a searing pain and a crack in your chest, as the 
         centuar nearest you kicks you down to the ground, (so much for it being against a centuar's
@@ -166,10 +166,10 @@ const forbiddenForest = {
         terse words exchanged, the centuars agree to leave you both unharmed, and Hagrid agrees
         to relocate the ousted centuar to another herd. You are safe for now, but you know you have
         some broken ribs that will need tending, and they cost you 20 injury points. But on the bright
-        side you cast a strong enough protective charm to save you both, so take 10 spell points!
+        side you cast a strong enough protective charm to save you both, so take 20 spell points!
         `,
         injury: -20,
-        spells: 10
+        spells: 20
     }]
 };
 
