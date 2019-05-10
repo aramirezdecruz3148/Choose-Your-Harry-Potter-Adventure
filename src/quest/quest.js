@@ -38,9 +38,9 @@ questForm.addEventListener('submit', (event) => {
     scoreFunction(user, choiceData, quest.id);
     api.saveUser(user);
 
-    questForm.classList.add('hidden');
-    questDescription.classList.add('hidden');
     questResult.classList.remove('hidden');
+    questDescription.classList.add('hidden');
+    questForm.classList.add('hidden');
     questResult.textContent = choiceData.result;
     loadProfile();
 });

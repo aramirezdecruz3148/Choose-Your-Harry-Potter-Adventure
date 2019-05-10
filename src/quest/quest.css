@@ -30,6 +30,10 @@ label {
     display: block;
 }
 
+.hidden {
+    display: none;
+}
+
 #quest-img {
     width: 275px;
     height: auto;
